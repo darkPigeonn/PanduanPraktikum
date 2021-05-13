@@ -11,4 +11,28 @@
     <color name="bg_materi5">#5B892D</color>
     <color name="bg_materi6">#4A2340</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="btn_kuning">#EDC523</color>
+    <color name="hijau">#41584B</color>
+    <color name="pudar">#CED8BE</color>
+<!--    warna menu materi-->
+    <color name="w1">#B9DA3E</color>
+    <color name="w2">#A8E1A9</color>
+    <color name="w3">#F38D28</color>
+    <color name="w4">#EFD334</color>
+    <color name="w5">#5B892D</color>
+    <color name="w6">#EB32BB</color>
+    <color name="orange1">#FFDE59</color>
+
+<!--kuning-->
+    <color name="kuning">#FFF733</color>
+    <color name="oranye">#FF7900</color>
+
+<!--    biru-->
+    <color name="biru">#7CDFD3</color>
+    
+<!--    hijau-->
+    <color name="hijaumuda">#74DB76</color>
+
+<!--    abu-->
+    <color name="abu">#E7E9E6</color>
 </resources>

@@ -7,4 +7,139 @@
     tools:context=".materi1.Bagian4_m1"
     android:background="@drawable/bg_materi1">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="151dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    android:id="@+id/pengantarid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="150dp"
+                    android:layout_toEndOf="@+id/icon"
+                    android:background="@drawable/bg_kotak_orange1"
+                    android:fontFamily="@font/cabin"
+                    android:letterSpacing="0.1"
+                    android:padding="10dip"
+                    android:text="@string/tugas_"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pengantarid"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:background="@color/kuning"
+                    android:fontFamily="@font/arimo"
+                    android:justificationMode="inter_word"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="15dp"
+                    android:text="@string/tugas_1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="6dp"
+
+                    android:background="@drawable/oval_biru"
+                    android:padding="5dip"
+                    android:src="@drawable/icon_tugas" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    android:id="@+id/pengantarid2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="65dp"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="40dp"
+                    android:background="@drawable/bg_kotak_orange1"
+                    android:fontFamily="@font/cabin"
+                    android:letterSpacing="0.1"
+                    android:padding="10dip"
+                    android:text="@string/kriteria_pembuatan_poster"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+
+                <LinearLayout
+                    android:layout_width="371dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@+id/pengantarid2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/arimo"
+                    android:background="#5B892D"
+                    android:justificationMode="inter_word"
+                    android:lineSpacingExtra="5dp"
+                    android:padding="15dp"
+                    android:text="@string/tujuan_1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/pengantarid"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arimo"
+                        android:justificationMode="inter_word"
+                        android:lineSpacingExtra="5dp"
+                        android:padding="10dp"
+                        android:text="@string/isi_tugas1"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+            <TextView
+                android:textAlignment="textEnd"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+
+                android:textColor="@color/black"
+                android:fontFamily="@font/opensans"
+                android:textSize="12sp"
+                android:text="@string/mediaiteratif"/>
+        </LinearLayout>
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
