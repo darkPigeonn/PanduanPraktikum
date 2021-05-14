@@ -2,9 +2,13 @@ package com.example.panduanpraktikum.materi1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 
+import com.example.panduanpraktikum.MenuUtama;
 import com.example.panduanpraktikum.R;
+import com.example.panduanpraktikum.SplashScreen;
 
 public class Sp_materi1 extends AppCompatActivity {
 
@@ -12,5 +16,13 @@ public class Sp_materi1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sp_materi1);
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                startActivity(new Intent(Sp_materi1.this, Bagian1_m1.class));
+                finish();
+            }
+        },4000);
     }
 }

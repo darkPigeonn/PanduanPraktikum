@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
-        <activity android:name=".MenuMateri"></activity>
+        <activity android:name=".DaftarPustaka"></activity>
+        <activity android:name=".MenuMateri" />
         <activity android:name=".KiKd" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".KataPengantar" />
@@ -41,13 +42,15 @@
         <activity android:name=".materi1.Bagian1_m1" />
         <activity android:name=".materi1.Sp_materi1" />
         <activity android:name=".MenuUtama">
+
+        </activity>
+        <activity android:name=".SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashScreen" />
         <activity android:name=".MainActivity" />
     </application>
 

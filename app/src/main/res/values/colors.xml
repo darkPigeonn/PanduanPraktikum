@@ -35,4 +35,8 @@
 
 <!--    abu-->
     <color name="abu">#E7E9E6</color>
+
+<!--    bab3-->
+    <color name="bab3">#A61910</color>
+    <color name="isi_bab3">#E7E9E6</color>
 </resources>

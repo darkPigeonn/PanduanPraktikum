@@ -4,6 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_materi3"
     tools:context=".materi3.sp_materi3">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+
+        <ImageView
+            android:id="@+id/logobab3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/bab3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logobab3"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="100dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sp_bab3"
+                android:textAlignment="center"
+                android:fontFamily="@font/eczar"
+                android:textSize="27sp"
+                android:padding="10dp"
+                android:background="#83FFFFFF"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+            <TextView
+                android:textAlignment="textEnd"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+
+                android:textColor="@color/black"
+                android:fontFamily="@font/opensans"
+                android:textSize="16sp"
+                android:text="@string/mediaiteratif"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

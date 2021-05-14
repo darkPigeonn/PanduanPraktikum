@@ -7,4 +7,61 @@
     android:background="@color/bg_materi4"
     tools:context=".materi4.Sp_materi4">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+
+
+        <ImageView
+            android:id="@+id/logobab3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/bab4"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logobab3"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sp_bab3"
+                android:textAlignment="center"
+                android:fontFamily="@font/eczar"
+                android:textSize="27sp"
+                android:padding="10dp"
+                android:src="@drawable/gambar_sp_bab4"
+
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+            <TextView
+                android:textAlignment="textEnd"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+
+                android:textColor="@color/black"
+                android:fontFamily="@font/opensans"
+                android:textSize="16sp"
+                android:text="@string/mediaiteratif"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
