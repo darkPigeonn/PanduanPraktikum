@@ -6,9 +6,9 @@
     <string name="daftar_pustaka">DAFTAR PUSTAKA</string>
     <string name="panduan_praktikum">PANDUAN PRAKTIKUM</string>
     <string name="kikd"><![CDATA[KI & KD]]></string>
-    <string name="penulis">Penulis <br></br><br></br>Angelina Gadis Hernani</string>
-    <string name="mediaiteratif">Media Interaktif <br><b>Panduan Praktikum</b> </br>BIOLOGI <br>Untuk SMA/MA Kelas X</br></string>
-    <string name="mediaiteratif2">Media Interaktif <br><b><font color='#FFE300'>Panduan Praktikum</font></b> </br>BIOLOGI <br>Untuk SMA/MA Kelas X</br></string>
+    <string name="penulis">Penulis \n \n \n Angelina Gadis Hernani</string>
+    <string name="mediaiteratif">Media Interaktif \n <b>Panduan Praktikum</b>BIOLOGI \n Untuk SMA/MA Kelas X</string>
+    <string name="mediaiteratif2">Media Interaktif \n <b><font color='#FFE300'>Panduan Praktikum</font></b> BIOLOGI \n Untuk SMA/MA Kelas X</string>
     <string name="k1">Memahami, menerapkan, menganalisis pengetahuan faktual, konseptual, prosedural berdasarkan rasa ingin tahunya tentang ilmu pengetahuan, teknologi, seni, budaya dan humaniora dengan wawasan kemanusiaan, kebangsaan, kenegaraan, dan peradaban terkait penyebab fenomena dan kejadian, serta menerapkan pengetahuan prosedural pada bidang kajian yang spesifik sesuai dengan bakat dan minatnya untuk memecahkan masalah.</string>
     <string name="k31">Menjelaskan ruang lingkup biologi (permasalahan pada berbagai obyek biologi dan tingkat organisasi kehidupan), melalui penerapan metode ilmiah dan prinsip keselamatan kerja</string>
     <string name="k32">Menganalisis berbagai tingkat keanekaragaman hayati di Indonesia</string>
@@ -16,7 +16,7 @@
     <string name="k34">Menganalisis struktur, replikasi dan peran virus dalam kehidupan</string>
     <string name="k35">Menganalisis komponen-komponen ekosistem dan interaksi antar komponen tersebut</string>
     <string name="k36">Menganalisis data perubahan lingkungan, penyebab, dan dampaknya bagi kehidupan</string>
-    <string name="panduan_praktikummenu">PANDUAN <br>PRAKTIKUM</br></string>
+    <string name="panduan_praktikummenu">PANDUAN \n PRAKTIKUM</string>
     <string name="judul_m1">Pengaruh Cahaya Matahari terhadap Pertumbuhan tanaman</string>
     <string name="sumber_m1">Sumber : https://resepimasakan.net/cara-menanam-sayuran-kangkung-mudah/</string>
     <string name="status_stop"><font color='#FF8E8E93'>Stopped</font></string> <!--gray-->
@@ -32,9 +32,9 @@
     <string name="pengantar_1">Perhatikan gambar di atas! Apakah kamu pernah mengamati bagaimana proses pertumbuhan tanaman? Tahukah kamu bahwa cahaya mahatahari merupakan salah satu faktor yang berperan penting dalam proses pertumbuhan tanaman. Jika tumbuhan tidak mendapatkan cahaya matahari, apakah tumbuhan dapat tetap tumbuh? Pada kegiatan ini kita akan bersama-sama membuktikan pengaruh cahaya matahari terhadap pertumbuhan tanaman. Yuk kita simak!</string>
     <string name="penegasan_1">Mengapa cahaya matahari dapat mempengaruhi pertumbuhan tanaman ?</string>
     <string name="tujuan_1">Siswa mampu menganalisis pengaruh cahaya matahari terhadap pertumbuhan tanaman</string>
-    <string name="alat_1">1. Gelas plastik (3 buah) <br></br>2. Kapas potong (3 lembar)</string>
-    <string name="bahan_1">1. Bibit tanaman (berusia 3 hari) <br></br>2. Air</string>
-    <string name="carakerja_1">1. Siapkan bibit tanaman yang sudah berusia 3 hari! <br></br>2. Unduhlah Lembar Kerja Peserta Didik (LKPD) pada bagian home!
+    <string name="alat_1">1. Gelas plastik (3 buah) \n 2. Kapas potong (3 lembar)</string>
+    <string name="bahan_1">1. Bibit tanaman (berusia 3 hari)\n 2. Air</string>
+    <string name="carakerja_1">1. Siapkan bibit tanaman yang sudah berusia 3 hari! \n 2. Unduhlah Lembar Kerja Peserta Didik (LKPD) pada bagian home!
         <br></br>3.Amati dan catatlah hasil pengamatan pada LKPD!</string>
     <string name="pengantarpertanyaan_1">Catatlah hasil pengamatanmu dalam bentuk tabel seperti tabel di bawah ini:</string>
     <string name="pertanyaan_a_1">Berdasarkan hasil pengamatan, pada kondisi seperti apa tanaman dapat tumbuh dengan cepat? Jelaskan!</string>
@@ -42,62 +42,62 @@
     <string name="pertanyaan_c_1">Apa yang terjadi jika tanaman tidak mendapatkan cahaya matahari?</string>
     <string name="tugas_1">Buatlah poster ilmiah dengan kriteria di bawah ini!</string>
     <string name="isi_tugas1">
-        1. Poster berjumlah 1 <br></br>
-        2. Jenis huruf Times New Roman dengan ukuran huruf minimal 16 cm <br></br>
-        3. Isi poster menyangkut :<br></br>
-        - Judul<br></br>
-        - Nama dan Kelas<br></br>
-        - Latar belakang (*)<br></br>
-        - Rumusan masalah (*)<br></br>
-        - Tujuan<br></br>
-        - Tinjauan pustaka/ Dasar teori (*)<br></br>
-        - Metode penelitian (*)<br></br>
-        - Hasil dan Pembahasan<br></br>
-        - Simpulan dan Saran (*)<br></br>
+        1. Poster berjumlah 1 \n
+        2. Jenis huruf Times New Roman dengan ukuran huruf minimal 16 cm \n
+        3. Isi poster menyangkut :\n
+        - Judul\n
+        - Nama dan Kelas\n
+        - Latar belakang (*) \n
+        - Rumusan masalah (*)\n
+        - Tujuan \n
+        - Tinjauan pustaka/ Dasar teori (*) \n
+        - Metode penelitian (*) \n
+        - Hasil dan Pembahasan \n
+        - Simpulan dan Saran (*) \n
         <b>Keterangan (*): Ditulis dengan ringkas</b></string>
     <string name="tujuan_praktikum">TUJUAN PRAKTIKUM</string>
     <string name="alat_amp_bahan"><![CDATA[ALAT & BAHAN]]></string>
     <string name="pertanyaan">PERTANYAAN</string>
     <string name="cara_kerja">CARA KERJA</string>
     <string name="tugas_">TUGAS</string>
-    <string name="kriteria_pembuatan_poster">KRITERIA PEMBUATAN <br>POSTER</br></string>
-    <string name="judulbab2">BAB 2 <br>KEANEKARAGAMAN</br> <br> HAYATI</br></string>
+    <string name="kriteria_pembuatan_poster">KRITERIA PEMBUATAN \n POSTER</string>
+    <string name="judulbab2">BAB 2 \n KEANEKARAGAMAN \n HAYATI</string>
 
     <!--    bab 2-->
     <string name="judulbab2isi">Keanekaragaman Hayati</string>
     <string name="pengantar_2">Perhatikan kedua gambar di atas! Tahukah kamu bahwa keanekaragaman hayati dipengaruhi oleh dua faktor yaitu faktor genetik dan faktor lingkungan. Yuk kita lakukan identifikasi untuk melihat keanekaragaman genetik di lingkungan sekitar.</string>
     <string name="penegasan_2">Bagaimana keragaman genetik yang ada di lingkungan sekitarmu ?</string>
     <string name="tujuan_2">
-        1.Siswa mampu mengidentifikasi keanekaragaman hayati tingkat gen <br></br>
+        1.Siswa mampu mengidentifikasi keanekaragaman hayati tingkat gen \n
         2.Siswa mampu menganalisis tingkat keragaman hayati </string>
     <string name="alat_2">Subyek minimal 3 (Ayah/ibu/kakak/adik/teman/saudara)</string>
     <string name="carakerja_2">
-        1. Unduhlah LKPD pada halaman home! <br></br>
-        2. Amatilah ciri-ciri orang yang dipilih dengan cermat!<br></br>
+        1. Unduhlah LKPD pada halaman home! \n
+        2. Amatilah ciri-ciri orang yang dipilih dengan cermat!\n
         3. Tuliskan nama orang yang kamu amati dan catatlah hasil pengamatan pada lembar LKPD!</string>
     <string name="pengantarpertanyaan_2">Catatlah hasil pengamatanmu dalam bentuk tabel seperti tabel di bawah ini:</string>
     <string name="pertanyaan_a_2">Sebutkan persamaan fenotipe yang ditemukan pada subyek yang diamati!</string>
     <string name="pertanyaan_b_2">Sebutkan perbedaan fenotipe pada subyek yang diamati!</string>
     <string name="pertanyaan_c_2">Mengapa ada persamaan dan perbedaan pada fenotipe yang diamati?</string>
     <string name="pertanyaan_d_2">Apa yang terjadi jika pada suatu organisme terdapat keragaman tingkat gen?</string>
-    <string name="tugas_2">Buatlah poster ilmiah dengan kriteria di bawah ini! <br></br>
-        1. Poster berjumlah 1 <br></br>
-        2. Jenis huruf Times New Roman dengan ukuran huruf minimal 16 cm <br></br>
-        3. Isi poster menyangkut :<br></br>
-        - Judul<br></br>
-        - Nama dan Kelas<br></br>
-        - Latar belakang (*)<br></br>
-        - Rumusan masalah (*)<br></br>
-        - Tujuan<br></br>
-        - Tinjauan pustaka/ Dasar teori (*)<br></br>
-        - Metode penelitian (*)<br></br>
-        - Hasil dan Pembahasan<br></br>
-        - Simpulan dan Saran (*)<br></br>
+    <string name="tugas_2">Buatlah poster ilmiah dengan kriteria di bawah ini! \n
+        1. Poster berjumlah 1 \n
+        2. Jenis huruf Times New Roman dengan ukuran huruf minimal 16 cm \n
+        3. Isi poster menyangkut : \n
+        - Judul \n
+        - Nama dan Kelas \n
+        - Latar belakang (*) \n
+        - Rumusan masalah (*) \n
+        - Tujuan \n
+        - Tinjauan pustaka/ Dasar teori (*) \n
+        - Metode penelitian (*) \n
+        - Hasil dan Pembahasan \n
+        - Simpulan dan Saran (*) \n
         <b>Keterangan (*): Ditulis dengan ringkas</b></string>
     <string name="sumber_m2">Sumber:https://3.bp.blogspot.com/-8ew5BsZ4n9I/WwUQ-I0OnJI/AAAAAAAACGs/2ww29j8WhbMUSk29qZmV2LUtORKIW2RQQCEwYBhgL/s1600/6..2%2Brambut.png</string>
 
     <!--    bab 3-->
-    <string name="sp_bab3">KLASIFIKASI <br>MAHKLUK HIDUP</br></string>
+    <string name="sp_bab3">KLASIFIKASI \n MAHKLUK HIDUP</string>
 
     <string name="judulbab3isi">Klasifikasi Mahkluk Hidup</string>
     <string name="pengantar_3">Apa yang kamu pikirkan ketika melihat gambar diatas? Tahukah kamu bahwa makhluk hidup akan dikelompokkan menjadi suatu kelompok besar dan kemudian akan dibagi menjadi kelompok-kelompok kecil hingga tersisa satu makhluk hidup. Tingkatan pengelompokan ini disebut dengan takson. Mari kita lakukan kegiatan praktikum untuk melihat tingkatan makhluk hidup di sekitar kita.</string>
@@ -106,10 +106,10 @@
        Siswa mampu menganalisis prinsip-prinsip klasifikasi makhluk hidup dalam lima kingdom </string>
     <string name="alat_3">Tumbuhan yang ada di lingkungan sekitar seperti (Tanaman kunyit, bayam, padi, lumut, paku, tanaman berbunga, tanaman buah).</string>
     <string name="carakerja_3">
-        1.Amatilah ciri-ciri tumbuhan yang tersedia! <br></br>
-        2.Tentukan tingkatan taksonomi tumbuhan tersebut!<br></br>
-        3.Carilah informasi lain diinternet terkait ciri-ciri tumbuhan yang diamati!<br></br>
-        4.Catatlah hasilnya pada tabel pengamatan! <br></br>
+        1.Amatilah ciri-ciri tumbuhan yang tersedia! \n
+        2.Tentukan tingkatan taksonomi tumbuhan tersebut! \n
+        3.Carilah informasi lain diinternet terkait ciri-ciri tumbuhan yang diamati! \n
+        4.Catatlah hasilnya pada tabel pengamatan! \n
         5.Jawablah pertanyaan dan tulislah kesimpulanmu pada lebar LKPD!</string>
     <string name="pengantarpertanyaan_3">Catatlah hasil pengamatanmu dalam bentuk tabel seperti tabel di bawah ini: </string>
     <string name="pertanyaan_a_3">Sebutkan dan jelaskan ciri khas dari setiap divisi!</string>
@@ -193,10 +193,11 @@
     <string name="profilisi1">
         Angelina Gadis Hernani merupakan anak ketiga dari empat bersaudara.
         Lahir di Simpang Pematang pada tahun 1999.
-        Perempuan yang kerap disapa Gadis ini memiliki ketertarikan terhadap musikdan petualangan.
-        Gadis melanjutkan pendidikan S-1nya di Universitas Sanata Dharma pada program studi Pendidikan Biologi.
+        Perempuan yang kerap disapa Gadis ini memiliki ketertarikan terhadap musik dan petualangan.
     </string>
     <string name="profilisi2">
-       Untuk memenuhi syarat tugas akhirnya, penyusun mengembangkan sebuat produk panduan praktikum Biologi untuk kelas X. Hal tersebut digunakan untuk membantu guru dan siswa dalam melaksanakan praktikum selama pandemi.
+
+Untuk memenuhi syarat tugas akhirnya, penyusun mengembangkan sebuat produk panduan praktikum Biologi untuk kelas X. Hal tersebut digunakan untuk membantu guru dan siswa dalam melaksanakan praktikum selama pandemi.
         </string>
+    <string name="dapus_1">Irnaningtyas. 2013. <i>Biologi untuk SMA/ MA Kelas X</i>. Jakarta: Penerbit Erlangga.</string>
 </resources>

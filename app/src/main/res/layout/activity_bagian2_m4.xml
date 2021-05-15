@@ -29,17 +29,20 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp">
                 <TextView
+                    android:layout_marginStart="-20dp"
                     android:id="@+id/pengantarid"
                     android:layout_width="wrap_content"
-                    android:layout_height="40dp"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginEnd="98dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_toEndOf="@+id/icon"
                     android:background="@drawable/bg_bab3"
                     android:fontFamily="@font/cabin"
                     android:letterSpacing="0.1"
                     android:padding="10dip"
+                    android:textAlignment="center"
                     android:text="@string/tujuan_praktikum"
                     android:textColor="@color/black"
                     android:textSize="19sp" />
@@ -77,16 +80,19 @@
                 android:layout_marginLeft="30dp">
                 <TextView
                     android:id="@+id/pengantarid2"
+                    android:layout_marginStart="-15dp"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginTop="4dp"
-                    android:layout_marginEnd="148dp"
+                    android:layout_marginEnd="124dp"
+                    android:layout_toEndOf="@+id/icon2"
                     android:background="@drawable/bg_bab3"
                     android:fontFamily="@font/cabin"
                     android:letterSpacing="0.1"
                     android:padding="10dip"
+                    android:textAlignment="center"
                     android:text="@string/alat_amp_bahan"
                     android:textColor="@color/black"
                     android:textSize="19sp" />
@@ -140,9 +146,12 @@
                 android:layout_marginLeft="30dp">
 
 
+
                 <TextView
                     android:id="@+id/caraid"
-                    android:layout_height="40dp"
+                    android:layout_marginStart="-20dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="150dp"

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.example.panduanpraktikum.MenuMateri;
 import com.example.panduanpraktikum.R;
@@ -21,7 +22,7 @@ public class Bagian3_m4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bagian3_m4);
 
-        Button home = findViewById(R.id.btnhome);
+        ImageButton home = findViewById(R.id.home);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

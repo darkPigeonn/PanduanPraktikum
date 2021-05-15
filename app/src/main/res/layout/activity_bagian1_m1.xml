@@ -20,36 +20,37 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="300dp"
-                android:layout_gravity="center_horizontal"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:background="@drawable/bg_kotak_orange"
                 android:fontFamily="@font/oldstandar"
-                android:textSize="19sp"
-                android:textColor="@color/black"
-                android:textAlignment="center"
                 android:padding="10dp"
-                android:textStyle="bold"
-                android:text="@string/judul_m1"/>
+                android:text="@string/judul_m1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
 
             <com.zolad.zoominimageview.ZoomInImageView
-                android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/gambar_m1"/>
-            <TextView
                 android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/gambar_m1" />
+
+            <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/sumber_m1"
                 android:textAlignment="center"
-                android:textSize="12sp"
                 android:textColor="@color/black"
-                android:text="@string/sumber_m1"/>
+                android:textSize="12sp" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -63,8 +64,10 @@
                     android:layout_height="40dp"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
+                    android:layout_marginStart="-7dp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginEnd="175dp"
+                    android:layout_marginEnd="150dp"
+                    android:layout_toEndOf="@+id/logo"
                     android:background="@drawable/bg_kotak_orange1"
                     android:fontFamily="@font/cabin"
                     android:letterSpacing="0.1"
@@ -97,7 +100,7 @@
                     android:layout_height="94dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-
+                    android:id="@+id/logo"
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="-18dp"
                     android:layout_marginBottom="121dp"
@@ -106,20 +109,21 @@
 
             <TextView
                 android:layout_width="300dp"
-                android:layout_gravity="center_horizontal"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/bg_kotak_orange2"
-                android:text="@string/penegasan_1"
-                android:textSize="16sp"
-                android:textAlignment="center"
                 android:fontFamily="@font/arimo"
-                android:textColor="@color/black"
                 android:lineSpacingExtra="5dp"
-                android:padding="5dp" />
+                android:padding="5dp"
+                android:text="@string/penegasan_1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

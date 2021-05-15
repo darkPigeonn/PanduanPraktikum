@@ -3,6 +3,7 @@ package com.example.panduanpraktikum;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,7 +26,7 @@ public class MenuUtama extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuUtama.this,KataPengantar.class));
-                finish();
+                
             }
         });
 
@@ -34,7 +35,7 @@ public class MenuUtama extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuUtama.this,KiKd.class));
-                finish();
+               
             }
         });
 
@@ -43,7 +44,6 @@ public class MenuUtama extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuUtama.this,MenuMateri.class));
-                finish();
             }
         });
 
@@ -52,7 +52,7 @@ public class MenuUtama extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuUtama.this,DaftarPustaka.class));
-                finish();
+
             }
         });
 
@@ -60,15 +60,15 @@ public class MenuUtama extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MenuUtama.this,Profil.class));
-                finish();
+
             }
         });
 
         lkpd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MenuUtama.this,Profil.class));
-                finish();
+                Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.mediafire.com/folder/rl9idjrjwcxdu/LKPD"));
+                startActivity(implicit);
             }
         });
     }

@@ -15,96 +15,101 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
+            android:layout_marginTop="40dp"
             android:gravity="center_horizontal"
-            android:layout_marginTop="40dp">
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:fontFamily="@font/opensansbold"
-                android:textStyle="bold"
                 android:letterSpacing="0.1"
                 android:lineSpacingExtra="5sp"
                 android:text="@string/panduan_praktikummenu"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/materi1"
-                android:layout_marginTop="20dp"
                 android:layout_width="250dp"
                 android:layout_height="50dp"
-                android:padding="5dp"
+                android:layout_marginTop="20dp"
                 android:background="@color/w1"
+                android:fontFamily="@font/opensansbold"
+                android:padding="5dp"
                 android:text="Ruang Lingkup Biologi"
-                android:fontFamily="@font/opensansbold"
-                android:textSize="17sp"
-                android:textColor="@color/black"/>
-            <Button
-                android:id="@+id/materi2"
-                android:layout_marginTop="20dp"
-                android:layout_width="250dp"
-                android:layout_height="50dp"
-                android:padding="5dp"
-                android:text="Keanekaragaman Hayati"
-                android:fontFamily="@font/opensansbold"
-                android:textSize="17sp"
                 android:textColor="@color/black"
-                android:background="@color/w2"/>
-            <Button
-                android:id="@+id/materi3"
-                android:layout_marginTop="20dp"
-                android:layout_width="250dp"
-                android:layout_height="60dp"
-                android:padding="5dp"
-                android:textColor="@color/black"
-                android:text="Klasifikasi Makhluk Hidup"
-                android:textSize="17sp"
-                android:fontFamily="@font/opensansbold"
-                android:background="@color/w3"/>
-            <Button
-                android:id="@+id/materi4"
-                android:layout_marginTop="20dp"
-                android:layout_width="250dp"
-                android:layout_height="50dp"
-                android:padding="5dp"
-                android:textColor="@color/black"
-                android:fontFamily="@font/opensansbold"
-                android:text="Virus"
-                android:textSize="17sp"
-                android:background="@color/w4"/>
-            <Button
-                android:id="@+id/materi5"
-                android:layout_marginTop="20dp"
-                android:layout_width="250dp"
-                android:layout_height="50dp"
-                android:padding="5dp"
-                android:textColor="@color/black"
-                android:fontFamily="@font/opensansbold"
-                android:text="Ekosistem"
-                android:textSize="17sp"
-                android:background="@color/w5"/>
-            <Button
-                android:id="@+id/materi6"
-                android:layout_marginTop="20dp"
-                android:layout_width="250dp"
-                android:layout_height="50dp"
-                android:padding="5dp"
-                android:textColor="@color/black"
-                android:fontFamily="@font/opensansbold"
-                android:text="Perubahan Lingkungan"
-                android:textSize="17sp"
-                android:background="@color/w6"/>
+                android:textSize="17sp" />
 
             <Button
+                android:id="@+id/materi2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:background="@color/w2"
+                android:fontFamily="@font/opensansbold"
+                android:padding="5dp"
+                android:text="Keanekaragaman Hayati"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/materi3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/w3"
+                android:fontFamily="@font/opensansbold"
+                android:padding="5dp"
+                android:text="Klasifikasi Makhluk Hidup"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/materi4"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/w4"
+                android:fontFamily="@font/opensansbold"
+                android:padding="5dp"
+                android:text="Virus"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/materi5"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/w5"
+                android:fontFamily="@font/opensansbold"
+                android:padding="5dp"
+                android:text="Ekosistem"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/materi6"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/w6"
+                android:fontFamily="@font/opensansbold"
+                android:padding="5dp"
+                android:text="Perubahan Lingkungan"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Button
                 android:id="@+id/btnhome"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/btnhome"/>
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btnhome" />
 
         </LinearLayout>
     </RelativeLayout>

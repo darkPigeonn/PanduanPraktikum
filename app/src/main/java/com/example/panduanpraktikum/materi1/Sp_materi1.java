@@ -23,6 +23,6 @@ public class Sp_materi1 extends AppCompatActivity {
                 startActivity(new Intent(Sp_materi1.this, Bagian1_m1.class));
                 finish();
             }
-        },4000);
+        },2000);
     }
 }
