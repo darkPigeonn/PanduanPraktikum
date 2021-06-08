@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,7 +10,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,63 +26,56 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:padding="20dp"
             android:orientation="vertical"
-            android:layout_marginTop="50dp">
+            >
 
             <TextView
+                android:paddingTop="40dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:fontFamily="@font/opensans"
-
                 android:lineSpacingExtra="10sp"
                 android:text="PENGANTAR"
                 android:letterSpacing="0.2"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="24sp"
+                android:textSize="19sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="20dp"
-                android:fontFamily="@font/opensans"
                 android:justificationMode="inter_word"
-                android:lineSpacingExtra="8sp"
-                android:text="Panduan praktikum biologi SMA kelas X merupakan media interaktif yang digunakan dalam pembelajaran biologi. Tujuan media interaktif ini yaitu untuk membantu guru dan siswa dalam pelaksanaan kegiatan praktikum secara mandiri selama pembelajaran daring. Media interaktif ini telah disesuaikan dengan kurikulum 2013 sehingga diharapkan dengan adanya media ini siswa dapat lebih memahami materi yang diberikan oleh guru. Selamat Belajar!"
+                android:textSize="16sp"
+                android:fontFamily="@font/opensans"
+                android:text="@string/isipenganttar"
                 android:textColor="@color/black"
-                android:textSize="17sp" />
+                />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/penulis"
                 android:textColor="@color/black"
+                android:autoSizeTextType="uniform"
                 android:textAlignment="textEnd"
-                android:layout_marginLeft="20dp"
-                android:layout_marginEnd="20dp"
                 android:fontFamily="@font/opensans"
-                android:textSize="17sp"/>
+                android:textSize="16sp"/>
 
             <TextView
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/opensans"
                 android:textSize="16sp"
+                android:text= "@string/mediaiteratif"
                 android:textAlignment="textEnd"
-                android:text="@string/mediaiteratif"/>
-
-
-"
+                android:textColor="@color/black" />
 
         </LinearLayout>
     </RelativeLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

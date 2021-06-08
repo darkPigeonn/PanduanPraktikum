@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,9 +7,7 @@
     tools:context=".materi1.Bagian1_m1"
     android:background="@drawable/bg_materi1">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
         <ImageButton
             android:id="@+id/home"
             android:layout_width="35dp"
@@ -18,130 +16,644 @@
             android:background="@drawable/btnhome"/>
 
         <LinearLayout
+            android:layout_below="@+id/home"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
+            android:padding="10dp"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/bg_kotak_orange"
                 android:fontFamily="@font/oldstandar"
-                android:padding="10dp"
+                android:padding="5dp"
                 android:text="@string/judul_m1"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="19sp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
-
-            <com.zolad.zoominimageview.ZoomInImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/gambar_m1" />
-
-            <TextView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="@string/sumber_m1"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="280dp"
-                android:layout_marginLeft="30dp">
-
-
-                <TextView
-                    android:id="@+id/pengantarid"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="-7dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginEnd="150dp"
-                    android:layout_toEndOf="@+id/logo"
-                    android:background="@drawable/bg_kotak_orange1"
-                    android:fontFamily="@font/cabin"
-                    android:letterSpacing="0.1"
-                    android:padding="10dip"
-                    android:text="@string/pengantar"
-                    android:textColor="@color/black"
-                    android:textSize="19sp" />
-
-                <TextView
-                    android:layout_width="371dp"
-                    android:layout_height="wrap_content"
-
-
-                    android:layout_below="@+id/pengantarid"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginEnd="10dp"
-
-                    android:background="@color/kuning"
-                    android:fontFamily="@font/arimo"
-                    android:justificationMode="inter_word"
-                    android:lineSpacingExtra="5dp"
-                    android:padding="10dp"
-                    android:text="@string/pengantar_1"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-
-                <ImageView
-                    android:layout_width="64dp"
-                    android:layout_height="94dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:id="@+id/logo"
-                    android:layout_marginStart="6dp"
-                    android:layout_marginTop="-18dp"
-                    android:layout_marginBottom="121dp"
-                    android:src="@drawable/icon_katapengantar" />
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="5dp"
-                android:background="@drawable/bg_kotak_orange2"
-                android:fontFamily="@font/arimo"
-                android:lineSpacingExtra="5dp"
-                android:padding="5dp"
-                android:text="@string/penegasan_1"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="16sp" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:orientation="horizontal">
-            <TextView
-                android:textAlignment="textEnd"
+            <ScrollView
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="20dp"
+                android:layout_height="match_parent">
 
-                android:textColor="@color/black"
-                android:fontFamily="@font/opensans"
-                android:textSize="12sp"
-                android:text="@string/mediaiteratif"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.zolad.zoominimageview.ZoomInImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/gambar_m1" />
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/sumber_m1"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="6sp" />
+
+                    <RelativeLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/pengantarid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:padding="10dp"
+                            android:layout_marginStart="-10dp"
+                            android:layout_toRightOf="@id/logo"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/cabin"
+                            android:letterSpacing="0.1"
+                            android:text="@string/pengantar"
+                            android:textColor="@color/black"
+                            android:textSize="17sp"
+                            android:background="@drawable/bg_kotak_orange1"
+                            tools:ignore="RtlCompat" />
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="60dp"
+                            android:layout_marginTop="-7dp"
+                            android:id="@+id/logo"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/icon_katapengantar" />
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/kuning"
+                        android:fontFamily="@font/arimo"
+                        android:justificationMode="inter_word"
+                        android:padding="15dp"
+                        android:lineSpacingExtra="5dp"
+                        android:autoSizeTextType="uniform"
+                        android:text="@string/pengantar_1"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/bg_kotak_orange2"
+                        android:fontFamily="@font/arimo"
+                        android:padding="5dp"
+                        android:autoSizeTextType="uniform"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/penegasan_1"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <TextView
+                                android:layout_marginStart="-10dp"
+                                android:id="@+id/pengantarid1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="3dp"
+                                android:layout_toEndOf="@+id/icon"
+                                android:background="@drawable/bg_kotak_orange1"
+                                android:fontFamily="@font/cabin"
+                                android:letterSpacing="0.1"
+                                android:padding="10dip"
+                                android:textAlignment="center"
+                                android:text="@string/tujuan_praktikum"
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+
+                            <TextView
+                                android:layout_width="371dp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/pengantarid1"
+                                android:background="@color/kuning"
+                                android:fontFamily="@font/arimo"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="5dp"
+                                android:padding="15dp"
+                                android:text="@string/tujuan_1"
+                                android:textColor="@color/black"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/icon"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentTop="true"
+                                android:background="@drawable/oval_biru"
+                                android:padding="5dip"
+                                android:src="@drawable/kacapembesar" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_marginTop="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/pengantarid2"
+                                android:layout_marginStart="-5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:layout_toEndOf="@+id/icon2"
+                                android:background="@drawable/bg_kotak_orange1"
+                                android:fontFamily="@font/cabin"
+                                android:padding="10dip"
+                                android:textAlignment="center"
+                                android:text="@string/alat_amp_bahan"
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+
+                            <LinearLayout
+                                android:layout_width="371dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_below="@+id/pengantarid2"
+                                android:fontFamily="@font/arimo"
+                                android:background="@color/kuning"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="5dp"
+                                android:padding="15dp"
+                                android:text="@string/tujuan_1"
+                                android:textColor="@color/black"
+                                android:textSize="14sp" >
+
+                                <LinearLayout
+                                    android:layout_marginTop="20dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_kotak_biru"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/alat"
+                                        android:fontFamily="@font/arimo"
+                                        android:textSize="17sp"
+                                        android:padding="10dp"
+                                        android:letterSpacing="0.1"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/alat_1"
+                                        android:fontFamily="@font/arimo"
+                                        android:textSize="14sp"
+                                        android:layout_marginLeft="10dp"
+                                        android:paddingBottom="4dp"
+                                        android:paddingRight="5dp"
+                                        android:lineSpacingExtra="5dp"
+                                        android:textColor="@color/black"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_marginTop="20dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_kotak_hijau"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/bahan"
+                                        android:fontFamily="@font/arimo"
+                                        android:textSize="17sp"
+                                        android:padding="10dp"
+                                        android:letterSpacing="0.1"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/bahan_1"
+                                        android:fontFamily="@font/arimo"
+                                        android:textSize="14sp"
+                                        android:layout_marginLeft="10dp"
+                                        android:paddingBottom="4dp"
+                                        android:paddingRight="5dp"
+                                        android:lineSpacingExtra="5dp"
+                                        android:textColor="@color/black"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <ImageView
+                                android:id="@+id/icon2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:padding="5dip"
+                                android:layout_marginStart="6dp"
+                                android:layout_marginBottom="121dp"
+                                android:src="@drawable/alatdanbahan"
+                                android:background="@drawable/oval_biru"/>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/pengantarid4"
+                                android:layout_marginStart="-10dp"
+                                android:textAlignment="center"
+                                android:layout_height="wrap_content"
+                                android:layout_toEndOf="@+id/icon5"
+                                android:background="@drawable/bg_kotak_orange1"
+                                android:fontFamily="@font/cabin"
+                                android:letterSpacing="0.1"
+                                android:padding="10dip"
+                                android:text="CARA KERJA"
+                                android:textColor="@color/black"
+                                android:textSize="17sp"
+                                android:layout_width="wrap_content" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_below="@+id/pengantarid4"
+                                android:fontFamily="@font/arimo"
+                                android:background="@color/kuning"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="5dp"
+                                android:padding="15dp">
+
+                                <TableRow
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/arimo"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/black"
+                                        android:text="1."
+                                        android:justificationMode="inter_word"
+                                        android:padding="2dp"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/pengantarid"
+                                        android:layout_alignParentEnd="true"
+                                        android:fontFamily="@font/arimo"
+                                        android:justificationMode="inter_word"
+                                        android:lineSpacingExtra="5dp"
+                                        android:padding="2dp"
+                                        android:text="@string/carakerja_1_1"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+                                </TableRow>
+                                <TableRow
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/arimo"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/black"
+                                        android:text="2."
+                                        android:justificationMode="inter_word"
+                                        android:padding="2dp"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/pengantarid"
+                                        android:layout_alignParentEnd="true"
+                                        android:fontFamily="@font/arimo"
+                                        android:justificationMode="inter_word"
+                                        android:lineSpacingExtra="5dp"
+                                        android:padding="2dp"
+                                        android:text="@string/carakerja_2_1"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+                                </TableRow>
+                                <TableRow
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/arimo"
+                                        android:textSize="14sp"
+                                        android:textColor="@color/black"
+                                        android:text="3."
+                                        android:justificationMode="inter_word"
+                                        android:padding="2dp"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/pengantarid"
+                                        android:layout_alignParentEnd="true"
+                                        android:fontFamily="@font/arimo"
+                                        android:justificationMode="inter_word"
+                                        android:lineSpacingExtra="5dp"
+                                        android:padding="2dp"
+                                        android:text="@string/carakerja_3_1"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+                                </TableRow>
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/icon5"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:padding="5dip"
+                                android:layout_marginStart="6dp"
+                                android:layout_marginBottom="121dp"
+                                android:src="@drawable/icon_carakerja"
+                                android:background="@drawable/oval_biru"/>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/pengantarid5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginStart="-11dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_toEndOf="@+id/icon6"
+                                android:background="@drawable/bg_kotak_orange1"
+                                android:fontFamily="@font/cabin"
+                                android:letterSpacing="0.1"
+                                android:padding="10dip"
+                                android:text="@string/pertanyaan"
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_below="@+id/pengantarid5"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/arimo"
+                                android:background="@color/kuning"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="5dp"
+                                android:padding="10dp"
+                                android:text="@string/tujuan_1"
+                                android:textColor="@color/black"
+                                android:textSize="14sp" >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/pengantarid"
+                                    android:layout_alignParentEnd="true"
+                                    android:background="@color/kuning"
+                                    android:fontFamily="@font/arimo"
+                                    android:justificationMode="inter_word"
+                                    android:padding="10dp"
+                                    android:text="@string/pengantarpertanyaan_1"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                                <com.zolad.zoominimageview.ZoomInImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/tabel_1"/>
+                                <TableRow
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/arimo"
+                                        android:textSize="15sp"
+                                        android:textColor="@color/black"
+                                        android:text="1."
+                                        android:justificationMode="inter_word"
+                                        android:padding="2dp"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/pengantarid"
+                                        android:layout_alignParentEnd="true"
+                                        android:fontFamily="@font/arimo"
+                                        android:justificationMode="inter_word"
+                                        android:lineSpacingExtra="5dp"
+                                        android:padding="2dp"
+                                        android:text="@string/pertanyaan_a_1"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+                                </TableRow>
+                                <TableRow
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/arimo"
+                                        android:textSize="15sp"
+                                        android:textColor="@color/black"
+                                        android:text="2."
+                                        android:justificationMode="inter_word"
+                                        android:padding="2dp"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/pengantarid"
+                                        android:layout_alignParentEnd="true"
+                                        android:fontFamily="@font/arimo"
+                                        android:justificationMode="inter_word"
+                                        android:lineSpacingExtra="5dp"
+                                        android:padding="2dp"
+                                        android:text="@string/pertanyaan_b_1"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+                                </TableRow>
+                                <TableRow
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/arimo"
+                                        android:textSize="15sp"
+                                        android:textColor="@color/black"
+                                        android:text="3."
+                                        android:justificationMode="inter_word"
+                                        android:padding="2dp"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/pengantarid"
+                                        android:layout_alignParentEnd="true"
+                                        android:fontFamily="@font/arimo"
+                                        android:justificationMode="inter_word"
+                                        android:lineSpacingExtra="5dp"
+                                        android:padding="2dp"
+                                        android:text="@string/pertanyaan_c_1"
+                                        android:textColor="@color/black"
+                                        android:textSize="14sp"/>
+                                </TableRow>
+                            </LinearLayout>
+                            <ImageView
+                                android:id="@+id/icon6"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:padding="5dip"
+                                android:layout_marginStart="6dp"
+                                android:layout_marginBottom="121dp"
+                                android:src="@drawable/icon_pertanyaan"
+                                android:background="@drawable/oval_biru"/>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/pengantarid7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="-10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_toEndOf="@+id/icon7"
+                                android:background="@drawable/bg_kotak_orange1"
+                                android:fontFamily="@font/cabin"
+                                android:letterSpacing="0.1"
+                                android:padding="10dip"
+                                android:text="@string/tugas_"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/pengantarid7"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="20dp"
+                                android:background="@color/kuning"
+                                android:fontFamily="@font/arimo"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="5dp"
+                                android:padding="15dp"
+                                android:text="@string/tugas_1"
+                                android:textColor="@color/black"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/icon7"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginStart="6dp"
+
+                                android:background="@drawable/oval_biru"
+                                android:padding="5dip"
+                                android:src="@drawable/icon_tugas" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                           >
+
+                            <TextView
+                                android:id="@+id/pengantarid8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginTop="4dp"
+                                android:background="@drawable/bg_kotak_orange1"
+                                android:fontFamily="@font/cabin"
+                                android:letterSpacing="0.1"
+                                android:padding="10dip"
+                                android:text="@string/kriteria_pembuatan_poster"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+
+                            <LinearLayout
+                                android:layout_width="371dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_below="@+id/pengantarid8"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/arimo"
+                                android:background="#5B892D"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="5dp"
+                                android:text="@string/tujuan_1"
+                                android:textColor="@color/black"
+                                android:textSize="14sp" >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/pengantarid"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_marginEnd="20dp"
+                                    android:fontFamily="@font/arimo"
+                                    android:justificationMode="inter_word"
+                                    android:lineSpacingExtra="5dp"
+                                    android:padding="10dp"
+                                    android:text="@string/isi_tugas1"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp" />
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </ScrollView>
         </LinearLayout>
-    </RelativeLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

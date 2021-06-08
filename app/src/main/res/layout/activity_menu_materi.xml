@@ -10,33 +10,35 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="40dp"
-            android:gravity="center_horizontal"
-            android:orientation="vertical">
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:padding="50dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
                 android:fontFamily="@font/opensansbold"
                 android:letterSpacing="0.1"
                 android:lineSpacingExtra="5sp"
                 android:text="@string/panduan_praktikummenu"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="30dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/materi1"
-                android:layout_width="250dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:background="@color/w1"
                 android:fontFamily="@font/opensansbold"
                 android:padding="5dp"
@@ -46,9 +48,9 @@
 
             <Button
                 android:id="@+id/materi2"
-                android:layout_width="250dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/w2"
                 android:fontFamily="@font/opensansbold"
                 android:padding="5dp"
@@ -58,9 +60,9 @@
 
             <Button
                 android:id="@+id/materi3"
-                android:layout_width="250dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/w3"
                 android:fontFamily="@font/opensansbold"
                 android:padding="5dp"
@@ -70,9 +72,9 @@
 
             <Button
                 android:id="@+id/materi4"
-                android:layout_width="250dp"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/w4"
                 android:fontFamily="@font/opensansbold"
                 android:padding="5dp"
@@ -82,9 +84,9 @@
 
             <Button
                 android:id="@+id/materi5"
-                android:layout_width="250dp"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/w5"
                 android:fontFamily="@font/opensansbold"
                 android:padding="5dp"
@@ -94,9 +96,9 @@
 
             <Button
                 android:id="@+id/materi6"
-                android:layout_width="250dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/w6"
                 android:fontFamily="@font/opensansbold"
                 android:padding="5dp"
@@ -106,6 +108,7 @@
 
             <Button
                 android:id="@+id/btnhome"
+                android:padding="0dp"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"

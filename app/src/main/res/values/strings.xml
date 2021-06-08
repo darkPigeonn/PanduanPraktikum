@@ -6,8 +6,8 @@
     <string name="daftar_pustaka">DAFTAR PUSTAKA</string>
     <string name="panduan_praktikum">PANDUAN PRAKTIKUM</string>
     <string name="kikd"><![CDATA[KI & KD]]></string>
-    <string name="penulis">Penulis \n \n \n Angelina Gadis Hernani</string>
-    <string name="mediaiteratif">Media Interaktif \n <b>Panduan Praktikum</b>BIOLOGI \n Untuk SMA/MA Kelas X</string>
+    <string name="penulis">Penulis \n \n Angelina Gadis Hernani</string>
+    <string name="mediaiteratif">Media Interaktif \n <b>Panduan Praktikum</b> BIOLOGI \n Untuk SMA/MA Kelas X</string>
     <string name="mediaiteratif2">Media Interaktif \n <b><font color='#FFE300'>Panduan Praktikum</font></b> BIOLOGI \n Untuk SMA/MA Kelas X</string>
     <string name="k1">Memahami, menerapkan, menganalisis pengetahuan faktual, konseptual, prosedural berdasarkan rasa ingin tahunya tentang ilmu pengetahuan, teknologi, seni, budaya dan humaniora dengan wawasan kemanusiaan, kebangsaan, kenegaraan, dan peradaban terkait penyebab fenomena dan kejadian, serta menerapkan pengetahuan prosedural pada bidang kajian yang spesifik sesuai dengan bakat dan minatnya untuk memecahkan masalah.</string>
     <string name="k31">Menjelaskan ruang lingkup biologi (permasalahan pada berbagai obyek biologi dan tingkat organisasi kehidupan), melalui penerapan metode ilmiah dan prinsip keselamatan kerja</string>
@@ -34,8 +34,9 @@
     <string name="tujuan_1">Siswa mampu menganalisis pengaruh cahaya matahari terhadap pertumbuhan tanaman</string>
     <string name="alat_1">1. Gelas plastik (3 buah) \n 2. Kapas potong (3 lembar)</string>
     <string name="bahan_1">1. Bibit tanaman (berusia 3 hari)\n 2. Air</string>
-    <string name="carakerja_1">1. Siapkan bibit tanaman yang sudah berusia 3 hari! \n 2. Unduhlah Lembar Kerja Peserta Didik (LKPD) pada bagian home!
-        <br></br>3.Amati dan catatlah hasil pengamatan pada LKPD!</string>
+    <string name="carakerja_1_1">Siapkan bibit tanaman yang sudah berusia 3 hari!</string>
+    <string name="carakerja_2_1">Unduhlah Lembar Kerja Peserta Didik (LKPD) pada bagian home!</string>
+    <string name="carakerja_3_1">Amati dan catatlah hasil pengamatan pada LKPD!</string>
     <string name="pengantarpertanyaan_1">Catatlah hasil pengamatanmu dalam bentuk tabel seperti tabel di bawah ini:</string>
     <string name="pertanyaan_a_1">Berdasarkan hasil pengamatan, pada kondisi seperti apa tanaman dapat tumbuh dengan cepat? Jelaskan!</string>
     <string name="pertanyaan_b_1">Apa yang dapat menyebabkan tanaman dapat tumbuh lebih cepat?</string>
@@ -71,10 +72,9 @@
         1.Siswa mampu mengidentifikasi keanekaragaman hayati tingkat gen \n
         2.Siswa mampu menganalisis tingkat keragaman hayati </string>
     <string name="alat_2">Subyek minimal 3 (Ayah/ibu/kakak/adik/teman/saudara)</string>
-    <string name="carakerja_2">
-        1. Unduhlah LKPD pada halaman home! \n
-        2. Amatilah ciri-ciri orang yang dipilih dengan cermat!\n
-        3. Tuliskan nama orang yang kamu amati dan catatlah hasil pengamatan pada lembar LKPD!</string>
+    <string name="carakerja_1_2">Unduhlah LKPD pada halaman home!</string>
+    <string name="carakerja_2_2">Amatilah ciri-ciri orang yang dipilih dengan cermat!</string>
+    <string name="carakerja_3_2">Tuliskan nama orang yang kamu amati dan catatlah hasil pengamatan pada lembar LKPD!</string>
     <string name="pengantarpertanyaan_2">Catatlah hasil pengamatanmu dalam bentuk tabel seperti tabel di bawah ini:</string>
     <string name="pertanyaan_a_2">Sebutkan persamaan fenotipe yang ditemukan pada subyek yang diamati!</string>
     <string name="pertanyaan_b_2">Sebutkan perbedaan fenotipe pada subyek yang diamati!</string>
@@ -105,12 +105,11 @@
     <string name="tujuan_3">
        Siswa mampu menganalisis prinsip-prinsip klasifikasi makhluk hidup dalam lima kingdom </string>
     <string name="alat_3">Tumbuhan yang ada di lingkungan sekitar seperti (Tanaman kunyit, bayam, padi, lumut, paku, tanaman berbunga, tanaman buah).</string>
-    <string name="carakerja_3">
-        1.Amatilah ciri-ciri tumbuhan yang tersedia! \n
-        2.Tentukan tingkatan taksonomi tumbuhan tersebut! \n
-        3.Carilah informasi lain diinternet terkait ciri-ciri tumbuhan yang diamati! \n
-        4.Catatlah hasilnya pada tabel pengamatan! \n
-        5.Jawablah pertanyaan dan tulislah kesimpulanmu pada lebar LKPD!</string>
+    <string name="carakerja_1_3">Amatilah ciri-ciri tumbuhan yang tersedia!</string>
+    <string name="carakerja_2_3">Tentukan tingkatan taksonomi tumbuhan tersebut!</string>
+    <string name="carakerja_3_3">Carilah informasi lain diinternet terkait ciri-ciri tumbuhan yang diamati!</string>
+    <string name="carakerja_4_3">Catatlah hasilnya pada tabel pengamatan!</string>
+    <string name="carakerja_5_3">Jawablah pertanyaan dan tulislah kesimpulanmu pada lebar LKPD!</string>
     <string name="pengantarpertanyaan_3">Catatlah hasil pengamatanmu dalam bentuk tabel seperti tabel di bawah ini: </string>
     <string name="pertanyaan_a_3">Sebutkan dan jelaskan ciri khas dari setiap divisi!</string>
     <string name="pertanyaan_b_3">Berdasarkan hasil pengamatan, tumbuhan apa yang paling banyak persamaannya? Jelaskan!</string>
@@ -194,10 +193,12 @@
         Angelina Gadis Hernani merupakan anak ketiga dari empat bersaudara.
         Lahir di Simpang Pematang pada tahun 1999.
         Perempuan yang kerap disapa Gadis ini memiliki ketertarikan terhadap musik dan petualangan.
+        Untuk memenuhi syarat tugas akhirnya, penyusun mengembangkan sebuat produk panduan praktikum Biologi untuk kelas X. Hal tersebut digunakan untuk membantu guru dan siswa dalam melaksanakan praktikum selama pandemi.
+
     </string>
     <string name="profilisi2">
-
-Untuk memenuhi syarat tugas akhirnya, penyusun mengembangkan sebuat produk panduan praktikum Biologi untuk kelas X. Hal tersebut digunakan untuk membantu guru dan siswa dalam melaksanakan praktikum selama pandemi.
+        Untuk memenuhi syarat tugas akhirnya, penyusun mengembangkan sebuat produk panduan praktikum Biologi untuk kelas X. Hal tersebut digunakan untuk membantu guru dan siswa dalam melaksanakan praktikum selama pandemi.
         </string>
     <string name="dapus_1">Irnaningtyas. 2013. <i>Biologi untuk SMA/ MA Kelas X</i>. Jakarta: Penerbit Erlangga.</string>
+    <string name="isipenganttar">Panduan praktikum biologi SMA kelas X merupakan media interaktif yang digunakan dalam pembelajaran biologi. Tujuan media interaktif ini yaitu untuk membantu guru dan siswa dalam pelaksanaan kegiatan praktikum secara mandiri selama pembelajaran daring. Media interaktif ini telah disesuaikan dengan kurikulum 2013 sehingga diharapkan dengan adanya media ini siswa dapat lebih memahami materi yang diberikan oleh guru. Selamat Belajar!</string>
 </resources>
